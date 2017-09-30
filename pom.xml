@@ -124,7 +124,7 @@
             <plugin>
                 <groupId>org.scalastyle</groupId>
                 <artifactId>scalastyle-maven-plugin</artifactId>
-                <version>0.8.0</version>
+                <version>1.0.0</version>
                 <configuration>
                     <verbose>false</verbose>
                     <failOnViolation>true</failOnViolation>
@@ -133,7 +133,7 @@
                     <sourceDirectory>${basedir}/src/main/scala</sourceDirectory>
                     <testSourceDirectory>${basedir}/src/test/scala</testSourceDirectory>
                     <configLocation>scalastyle-config.xml</configLocation>
-                    <outputFile>${project.basedir}/scalastyle-output.xml</outputFile>
+                    <outputFile>${project.basedir}/target/scalastyle-output.xml</outputFile>
                     <outputEncoding>UTF-8</outputEncoding>
                 </configuration>
                 <executions>

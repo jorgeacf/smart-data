@@ -1,7 +1,10 @@
+import org.junit.runner.RunWith
 import org.scalatest._
+import org.scalatest.junit.JUnitRunner
 
 import scala.collection.mutable
 
+@RunWith(classOf[JUnitRunner])
 class Test extends FlatSpec with Matchers {
 
   "A Stack" should "pop values in last-in-first-out order" in {
