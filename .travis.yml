@@ -2,4 +2,13 @@ language: scala
 scala:
    - 2.11.11
 
+cache:
+  timeout: 900
+  directories:
+  - $HOME/.m2
+
+before_cache:
+  - sudo rm -rf $HOME/.m2/repository/
+  - du --summarize --human-readable $HOME/.m2/repository
+
 script: mvn clean package cobertura:cobertura coveralls:report;
