@@ -8,5 +8,6 @@ fork := true
 
 libraryDependencies ++= Seq(
   "org.apache.spark" % "spark-core_2.11" % "2.2.0",// % "provided"
-  "org.scalatest" % "scalatest_2.11" % "3.0.4" % "test"
+  "org.scalatest" % "scalatest_2.11" % "3.0.4" % "test",
+  "junit" % "junit" % "test"
 )
