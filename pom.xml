@@ -17,9 +17,23 @@
         <scala.version>2.11.11</scala.version>
         <junit.version>4.12</junit.version>
         <scalatest.version>3.0.4</scalatest.version>
+        <scopt.version>3.7.0</scopt.version>
+        <scaldi.version>0.5.8</scaldi.version>
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.github.scopt</groupId>
+            <artifactId>scopt_${scala.binary.version}</artifactId>
+            <version>${scopt.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.scaldi</groupId>
+            <artifactId>scaldi_${scala.binary.version}</artifactId>
+            <version>${scaldi.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>junit</groupId>
