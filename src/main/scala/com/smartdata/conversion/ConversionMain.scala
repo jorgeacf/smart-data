@@ -13,8 +13,8 @@ object ConversionMain {
 
   def main(arguments: Array[String]): Unit = {
     logger.info(s"Starting {$serviceName}, Version {$serviceVersion}")
-    val commandLineParser = new CommandLineParser(headTitle, serviceName, serviceVersion)
-    commandLineParser.parse(arguments)
+    //val commandLineParser = new CommandLineParser(headTitle, serviceName, serviceVersion)
+    //commandLineParser.parse(arguments)
     logger.info(s"Stopping {$serviceName}")
   }
 
