@@ -5,9 +5,9 @@ import org.slf4j.LoggerFactory
 
 object ConversionMain {
 
-  //private val headTitle = "Smart Data"
-  //private val serviceName = "Conversion Services"
-  //private val serviceVersion = "1.0.0"
+  private val headTitle = "Smart Data"
+  private val serviceName = "Conversion Services"
+  private val serviceVersion = "1.0.0"
 
   private val logger = LoggerFactory.getLogger(getClass)
 
