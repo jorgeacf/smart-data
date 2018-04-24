@@ -1,3 +1,3 @@
 FROM jorgeacf/maven:latest
 
-RUN dnf install tree
+RUN dnf install -y tree
